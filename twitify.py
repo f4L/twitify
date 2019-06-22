@@ -4,10 +4,10 @@ from twython import Twython
 
 # # To initiate/write json file with credentials in it
 # credentials = {}
-# credentials['CONSUMER_KEY'] = 'XDEuh0hP1rQ3lcDZCp1RCE7BO'
-# credentials['CONSUMER_SECRET'] = 'tZ9QcPCLyygVbVTcLQSkcL5J7Ovey8GeWOAKcmpn3oY00NNUzq'
-# credentials['ACCESS_TOKEN'] = '3037907933-ALptgAJwoCZXacQDAz958AeOBsE6B4PDA27pbJu'
-# credentials['ACCESS_SECRET'] = 'iXzrkbjDWCyCQIJCks18wjdDX8I6N5fZJwWifaIYxZuWf'
+# credentials['CONSUMER_KEY'] = ''
+# credentials['CONSUMER_SECRET'] = ''
+# credentials['ACCESS_TOKEN'] = ''
+# credentials['ACCESS_SECRET'] = ''
 #
 # with open('twitter_credentials.json', 'w') as file:
 #     json.dump(credentials, file)

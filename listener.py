@@ -6,10 +6,10 @@ import json
 from textblob import TextBlob
 
 # auth info (secret)
-consumer_key="XDEuh0hP1rQ3lcDZCp1RCE7BO"
-consumer_secret="tZ9QcPCLyygVbVTcLQSkcL5J7Ovey8GeWOAKcmpn3oY00NNUzq"
-access_token="3037907933-ALptgAJwoCZXacQDAz958AeOBsE6B4PDA27pbJu"
-access_token_secret="iXzrkbjDWCyCQIJCks18wjdDX8I6N5fZJwWifaIYxZuWf"
+consumer_key=""
+consumer_secret=""
+access_token=""
+access_token_secret=""
 
 
 class StdOutlistener(StreamListener):
@@ -41,6 +41,6 @@ class StdOutlistener(StreamListener):
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 
-# Twitter IDs: ejpdro = 418032314, notwlsn = 3037907933, owengift = 3251789096, benjweldon = 2323972303
+# Twitter IDs:
 twitterStream = Stream(auth, StdOutlistener())
-twitterStream.filter(languages=["en"], follow=["418032314", "3037907933", "3251789096", "2323972303"])
+twitterStream.filter(languages=["en"], follow=["", "", "", ""])

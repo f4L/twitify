@@ -132,10 +132,10 @@ if __name__ == "__main__":
         print("No parameters supplied. Exiting.")
         sys.exit(0)
 
-    consumer_key="XDEuh0hP1rQ3lcDZCp1RCE7BO"
-    consumer_secret="tZ9QcPCLyygVbVTcLQSkcL5J7Ovey8GeWOAKcmpn3oY00NNUzq"
-    access_token="3037907933-ALptgAJwoCZXacQDAz958AeOBsE6B4PDA27pbJu"
-    access_token_secret="iXzrkbjDWCyCQIJCks18wjdDX8I6N5fZJwWifaIYxZuWf"
+    consumer_key=""
+    consumer_secret=""
+    access_token=""
+    access_token_secret=""
 
     auth = OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)

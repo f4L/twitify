@@ -2,14 +2,14 @@ import tweepy
 from tweepy import API
 from tweepy import Cursor
 
-# auth = tweepy.AuthHandler(XDEuh0hP1rQ3lcDZCp1RCE7BO, tZ9QcPCLyygVbVTcLQSkcL5J7Ovey8GeWOAKcmpn3oY00NNUzq)
-# auth.set_access_token(3037907933-ALptgAJwoCZXacQDAz958AeOBsE6B4PDA27pbJu, iXzrkbjDWCyCQIJCks18wjdDX8I6N5fZJwWifaIYxZuWf)
+# auth = tweepy.AuthHandler(, )
+# auth.set_access_token(, )
 
 # auth info (secret)
-consumer_key="XDEuh0hP1rQ3lcDZCp1RCE7BO"
-consumer_secret="tZ9QcPCLyygVbVTcLQSkcL5J7Ovey8GeWOAKcmpn3oY00NNUzq"
-access_token="3037907933-ALptgAJwoCZXacQDAz958AeOBsE6B4PDA27pbJu"
-access_token_secret="iXzrkbjDWCyCQIJCks18wjdDX8I6N5fZJwWifaIYxZuWf"
+consumer_key=""
+consumer_secret=""
+access_token=""
+access_token_secret=""
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -25,7 +25,7 @@ for tweet in public_tweets:
     print(tweet.text)
 
 # Get the user object for twitter...
-user = api.get_user('ejpdro')
+user = api.get_user('')
 
 print(user.screen_name)
 print(user.followers_count)
