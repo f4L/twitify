@@ -9,7 +9,7 @@ from json.decoder import JSONDecodeError
 # Get username from terminal
 username = sys.argv[1]
 
-# User ID: willonc10?si=0MEiMwaHSeW7WCH877vOmw
+# User ID:
 
 # Erase the cache and prompt for user permission
 try:
